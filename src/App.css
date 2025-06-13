@@ -1,0 +1,223 @@
+body {
+  background-color:#f8f9f9!important;
+  color: #575656!important;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+a {text-decoration: none!important;}
+
+@font-face{
+  font-family: 'BillionDream';
+  src: local('BillionDream'),
+  url('./assets/fonts/BillionDreams.ttf') format('truetype');
+  font-weight:normal
+}
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+}
+/* .inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} */
+
+
+/*css box float*/
+.u-position{position:absolute!important;z-index:auto;left: 11%;top:35%;}
+.img-float{position:absolute!important;z-index:auto; left:55%;}
+/*css box float MOBILE*/
+.u-position-m{position:absolute!important;left:12%;}
+
+/*css utilities*/
+.u-box-yellow{background-color: #F6B345;}
+.u-box-white{background-color: #fff;}
+.u-box-grey-round{background-color: #eaecee;border-radius:25px;}
+.u-color-text-yellow{color: #F6B345;}
+.u-none-decoration{text-decoration: none!important;}
+.u-bold{font-weight: bold;}
+.u-footer-color{background-color: #F4F4F4;}
+.u-little-text{font-size:11px;}
+.u-line{border-top: 1px solid #575656;}
+.u-list-none{list-style: none;}
+.u-text-black{color: #575656!important;}
+.u-border-roud-left{border-radius: 25px 0px 0px 25px;}
+.u-border-roud-right{border-radius: 0px 25px 25px 0px;}
+.u-border-roud-all{border-radius: 25px;}
+
+/*css font sizes*/
+.u-title-prin{font-size:75px;color: #F6B345;}
+.u-title-secod{font-size:60px;color: #566573;font-weight: bold;}
+.u-title-subTitle{font-size:30px;color: #566573;font-weight: bold;}
+.u-content-stxt{font-size: 16px;}
+
+
+/*css content title style full*/
+.u-title-prin-content-home{
+  font-size:70px;color: #F6B345;
+  font-family: "BillionDream", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;}
+.u-title-prin-content{
+  font-size:55px;color: #F6B345;
+  font-family: "BillionDream", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;}
+.u-title-prin-content-white{
+  font-size:55px;color: white;
+  font-family: "BillionDream", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;}
+.u-title-prin-content-black{
+  font-size:55px;color: #575656;
+  font-family: "BillionDream", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;}
+.u-title-solid-black{
+  font-size:30px;color: #575656;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;}
+
+.u-title-grid-white{
+  font-size:30px;color: white;
+  font-family: "BillionDream", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;}
+.u-title-grid-black{
+  font-size:30px;color:#575656;
+  font-family: "BillionDream", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;}
+
+
+/*css font sizes MOBILE*/
+.u-title-prin-m{font-size:40px;color: #F6B345;}
+.u-title-secod-m{font-size:40px;color: #566573;font-weight: bold;}
+.u-content-stxt-m{font-size: 14px;}
+/* title and subtitle */
+.u-title-bold-white{font-size:23px;color: white;font-weight: bold;}
+.u-subtitle-bold-white{font-size:18px;color: white;font-weight: bold;}
+/*css nav principal*/
+.u-nav-h{height:50px;}
+.u-nav-b-color{
+background-color: #566573;
+border-radius: 0px 0px 20px 20px;
+}
+.nav-color{
+  background-color:#f8f9f9;
+}
+.m-ul{
+  padding-left: 0;
+  list-style: none;
+}
+.subtitle{
+  color: #CC550A;
+}
+.box-white{
+  background-color: #fff;
+}
+/*//////////////////////////////menu//////////////////////////*/
+.menu > li{
+  position: relative;
+  display: inline-block;
+}
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #566573;
+  text-decoration: none!important;
+  font-size:16px;
+}
+.menu li a:hover{
+  color: #F6B345;
+  transition: all .3s;
+}
+/* Submenu*/
+.submenu{
+  position:absolute;
+  padding-left:0;
+  background: #333333;
+  width:150%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  z-index:1;
+}
+.submenu li a{
+  display: block;
+  padding:10px;
+  color: #fff;
+  text-decoration: none!important;
+  text-align:left;
+}
+.menu li:hover .submenu{
+  visibility: visible;
+  text-decoration: none!important;
+  opacity: 1;
+}
+/* /////////////////////////////////// */
+
+/*css nav button*/
+.u-button
+{
+display: inline-block;
+font-weight: 400;
+background-color:#F6B345;
+color:#575656;
+text-align: center;
+text-decoration:none;
+white-space: nowrap;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 2.5rem;
+border:none!important;
+box-shadow:none!important;
+transition: color .15s 
+}
+.u-button:hover
+{
+background-color:#575656;
+color:#F6B345;
+text-decoration:none;
+transition:.2s; 
+}
+
+.u-button-black
+{
+display: inline-block;
+font-weight: 400;
+background-color:#575656;
+color:white;
+text-align: center;
+text-decoration:none;
+white-space: nowrap;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 2.5rem;
+border:none!important;
+box-shadow:none!important;
+transition: color .15s 
+}
+.u-button-black:hover
+{
+background-color:#575656;
+color:#F6B345;
+text-decoration:none;
+transition:.2s; 
+}
